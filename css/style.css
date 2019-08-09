@@ -18,15 +18,35 @@
     height: 30px;
     vertical-align: middle;
 }
-.icon{
-    width: auto;
-    height: 3cm;
-    vertical-align: middle;
-}
 .link{
     color: white;
     font-family: 'Kanit', sans-serif;
     text-shadow: black;
     text-shadow: 2px 2px black;
     font-size: 2ex;
+}
+.persona{
+    width: auto;
+    height: 3cm;
+    vertical-align: middle;
+}
+.favorite{
+    color: pink;
+    height: 3cm;
+    vertical-align: middle;
+}
+.hobby{
+    color: brown;
+    height: 3cm;
+    vertical-align: middle;
+}
+.phone{
+    color: black;
+    height: 3cm;
+    vertical-align: middle;
+}
+.cake{
+    color: red;
+    height: 3cm;
+    vertical-align: middle;
 }
