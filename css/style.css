@@ -1,0 +1,32 @@
+.text {
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    text-shadow: 2px 2px black;
+    font-size: 4ex;
+}
+.img {
+    width: 400px;
+    height: 200px;
+    border:2px solid black;
+    background: url(img/tiger.png) no-repeat;
+    -moz-box-shadow: inset 10px 10px 50px black;
+    -webkit-box-shadow: inset 10px 10px 50px black;
+    box-shadow: inset 10px 10px 50px black;
+}
+.facebook {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+.icon{
+    width: auto;
+    height: 3cm;
+    vertical-align: middle;
+}
+.link{
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    text-shadow: black;
+    text-shadow: 2px 2px black;
+    font-size: 2ex;
+}
