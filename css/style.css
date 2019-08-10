@@ -1,19 +1,19 @@
-.text {
+.text{
     color: white;
     font-family: 'Kanit', sans-serif;
     text-shadow: 2px 2px black;
     font-size: 4ex;
 }
-.img {
+.img{
+    height: 400px;
     width: 400px;
-    height: 200px;
     border:2px solid black;
     background: url(img/tiger.png) no-repeat;
     -moz-box-shadow: inset 10px 10px 50px black;
     -webkit-box-shadow: inset 10px 10px 50px black;
     box-shadow: inset 10px 10px 50px black;
 }
-.facebook {
+.facebook{
     width: 30px;
     height: 30px;
     vertical-align: middle;
@@ -49,4 +49,11 @@
     color: red;
     height: 3cm;
     vertical-align: middle;
+}
+.cssstudy {
+    color: white;
+    text-shadow: 2px 2px black;
+    font-size: 3ex;
+    font-family: 'Kanit', sans-serif;
+    padding: 10px;
 }
