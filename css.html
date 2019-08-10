@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body background="image/odaiba.jpg">
+<body class="background" background="image/odaiba.jpg">
 
         <nav>
             <div class="nav-wrapper blue-grey darken-3">
@@ -21,10 +21,18 @@
             </div>
         </nav>
         <div class="col s12 m2 offset-m2 l6 offset-l3">
-            <p class="z-depth-1 cssstudy"><i class="left material-icons md-48">info</i>CSS Specificity คืออะไร?<br>ค่าบางอย่างที่จะจะบอก browser ว่าให้เลือกใช้ Style ตัวไหนมาแสดงผลหน้าเว็บ</p>
+            <p class="z-depth-1 cssstudy"><i class="left material-icons md-48">info</i>CSS Specificity คืออะไร?<br>คือชุดของกฎที่ใช้กับ CSS selectors เป็นค่าบางอย่างที่จะจะบอก browser ว่าให้เลือกใช้รูปแบบไหนมาแสดงผลหน้าเว็บ</p>
         </div>
         <div class="col s12 m2 offset-m2 l6 offset-l3">
-            <p class="z-depth-1 cssstudy"><i class="left material-icons md-48">info</i>ตัวอย่าง<br></p>
+            <p class="z-depth-1 cssstudy"><i class="left material-icons md-48">info</i>ตัวอย่าง
+                <br>กำหนดให้ใน CSS เป็น
+                <br><img src="image/cssimage/css01.png">
+                <br>และใน html เป็น
+                <br><img src="image/cssimage/css02.png">
+                <br>ผลลัพท์ที่ได้คือ
+                <br><img src="image/cssimage/css03.png">
+                <br>เพราะ #redbox นั้นมีค่าที่มากกว่า .bluebox ผลลัพท์กล่องจึงเป็นสีแดงไม่ใช่น้ำเงิน
+            </p>
         </div>
 </body>
 </html>
