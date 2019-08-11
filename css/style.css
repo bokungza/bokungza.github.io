@@ -1,8 +1,8 @@
 .text{
+    font-size: 4ex;
     color: white;
     font-family: 'Kanit', sans-serif;
     text-shadow: 2px 2px black;
-    font-size: 4ex;
 }
 .img{
     height: 400px;
@@ -19,11 +19,11 @@
     vertical-align: middle;
 }
 .link{
+    font-size: 3ex;
     color: white;
     font-family: 'Kanit', sans-serif;
     text-shadow: black;
     text-shadow: 2px 2px black;
-    font-size: 2ex;
 }
 .persona{
     width: auto;
