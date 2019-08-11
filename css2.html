@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS Specificity</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Kanit&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body class="background" background="image/odaiba.jpg">
+    <nav>
+        <div class="nav-wrapper blue-grey darken-3">
+            <a class="cssstudy">CSS Specificity</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <a class="right link" href="css.html"><i class="large material-icons persona left">navigate_before</i>Back</a>
+                <a class="right link" href="index.html"><i class="large material-icons persona left">person</i>My profile</a>
+            </ul>
+         </div>
+         
+    </nav>
+    <div>
+        <p class="z-depth-1 cssstudy"><i class="left material-icons md-48">info</i>กฏ Specificity
+            <br>- ถ้าค่า Specificity ที่เหมือนกันจะทำการนับจากอันล่าสุด
+            <br>ถ้ากฎเหมือนกันถูกเขียนสองครั้งใน CSS ดังนั้นค่าอันล่าสุดที่ใกล้เคียงจะถูกนำมาใช้ เช่น
+            <br><img src="image/cssimage/Specificity04.png">
+            <br><img src="image/cssimage/Specificity05.png">
+            <br><img src="image/cssimage/Specificity06.png">
+            <br>ผลที่ได้คือจะไปดึง h1 สีแดงมาเพราะเป็นอันล่าสุด
+ 
+        </p>
+    </div>
+        <!--<div class="col s12 m2 offset-m2 l6 offset-l3">
+            <p class="z-depth-1 cssstudy"><i class="left material-icons md-48">info</i>ตัวอย่าง
+                <br>กำหนดให้ใน CSS เป็น
+                <br><img src="image/cssimage/css01.png">
+                <br>และใน html เป็น
+                <br><img src="image/cssimage/css02.png">
+                <br>ผลลัพท์ที่ได้คือ
+                <br><img src="image/cssimage/css03.png">
+                <br>เพราะ #redbox นั้นมีค่าที่มากกว่า .bluebox ผลลัพท์กล่องจึงเป็นสีแดงไม่ใช่น้ำเงิน
+            </p>
+        </div>
+        <div class="col s12 m2 offset-m2 l6 offset-l3">
+                <p class="z-depth-1 cssstudy"><i class="left material-icons md-48">info</i>ตัวอย่างการคำนวนค่า
+
+                </p>
+        </div>-->
+</body>
+</html>

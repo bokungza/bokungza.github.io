@@ -14,9 +14,9 @@
     box-shadow: inset 10px 10px 50px black;
 }
 .facebook{
-    width: 30px;
-    height: 30px;
-    vertical-align: middle;
+    width: auto;
+    height: 1.5em;
+    vertical-align: text-bottom;
 }
 .link{
     font-size: 3ex;
