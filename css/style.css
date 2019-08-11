@@ -50,13 +50,13 @@
     height: 3cm;
     vertical-align: middle;
 }
-.cssstudy {
+.cssstudy{
     color: white;
     text-shadow: 2px 2px black;
     font-size: 3ex;
     font-family: 'Kanit', sans-serif;
     padding: 10px;
 }
-.background {
+.background{
     background-attachment: fixed;
 }

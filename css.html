@@ -21,9 +21,26 @@
             </div>
         </nav>
         <div class="col s12 m2 offset-m2 l6 offset-l3">
-            <p class="z-depth-1 cssstudy"><i class="left material-icons md-48">info</i>CSS Specificity คืออะไร?<br>คือชุดของกฎที่ใช้กับ CSS selectors เป็นค่าบางอย่างที่จะจะบอก browser ว่าให้เลือกใช้รูปแบบไหนมาแสดงผลหน้าเว็บ</p>
+            <p class="z-depth-1 cssstudy"><i class="left material-icons md-48">info</i>CSS Specificity คืออะไร?
+                <br>ถ้าหากมีข้อขัดแย้งสองหรือมากกว่านี้กฎ CSS ที่ชี้ไปที่องค์ประกอบเดียวกัน เบราว์เซอร์ปฏิบัติตามกฎบางข้อเพื่อพิจารณาว่าอันไหนที่เฉพาะเจาะจงที่สุดและนำมาแสดงผลบนหน้าเว็บ
+                <br>คิดว่าความเฉพาะเจาะจงเป็นคะแนนที่กำหนดลักษณะของการแสดงในที่สุดจะนำไปใช้กับองค์ประกอบ
+                <br>The universal selector (*) มีความจำเพาะต่ำในขณะที่ตัวเลือก ID มีความเฉพาะเจาะจงสูง
+            </p>
         </div>
-        <div class="col s12 m2 offset-m2 l6 offset-l3">
+        <div>
+            <p class="z-depth-1 cssstudy"><i class="left material-icons md-48">info</i>Specificity Hierarchy ระดับชั้น
+                <br>ตัวเลือกทุกตัวมีระดับชั้นเฉพาะ มีสี่ประเภทที่กำหนดระดับความเฉพาะเจาะจงของตัวเลือกได้แก่
+                <br>- Inline styles รูปแบบ inline ถูกแนบมาโดยตรงกับองค์ประกอบที่จะมีสไตล์ ตัวอย่างเช่น 
+                <br><img src="image/cssimage/css01.png">
+                <br><img src="image/cssimage/css02.png">
+                <br>จะแสดงคำว่า hello ที่มีสีแดงขนาด h1 ออกมา
+                <br>- IDs เป็นตัวระบุเฉพาะสำหรับองค์ประกอบของหน้า เช่น #redbox
+                <br><img src="image/cssimage/css03.png">
+                <br>- Classes, attributes and pseudo-classes หมวดหมู่นี้รวมถึง class, [attributes]และ pseudo-classes เช่น :hover, :focus
+                <br>- Elements and pseudo-elements หมวดหมู่นี้รวมถึง element names และ pseudo-elementsเช่น h1, div,: before และ: after
+            </p>
+        </div>
+        <!--<div class="col s12 m2 offset-m2 l6 offset-l3">
             <p class="z-depth-1 cssstudy"><i class="left material-icons md-48">info</i>ตัวอย่าง
                 <br>กำหนดให้ใน CSS เป็น
                 <br><img src="image/cssimage/css01.png">
@@ -34,5 +51,10 @@
                 <br>เพราะ #redbox นั้นมีค่าที่มากกว่า .bluebox ผลลัพท์กล่องจึงเป็นสีแดงไม่ใช่น้ำเงิน
             </p>
         </div>
+        <div class="col s12 m2 offset-m2 l6 offset-l3">
+                <p class="z-depth-1 cssstudy"><i class="left material-icons md-48">info</i>ตัวอย่างการคำนวนค่า
+
+                </p>
+        </div>-->
 </body>
 </html>
